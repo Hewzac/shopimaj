@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  font-family: montserrat;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.header-main {
+  background-color: red;
+}
+.header-main ul {
+  display: flex;
+  padding: 10px;
+}
+.shopimaj-link {
+  float: center;
+}
+footer {
+  background-color: rgb(212, 212, 212);
+  color: white;
+  position: static;
+  bottom: 0;
+  left: 0;
+  padding: 16px 32px 16px 32px;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.products-panel-container {
+  background-color: blue;
+  padding-top: 10px;
+}
+.products-panel-row {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 30px 0;
+  background-color: yellow;
+  height: 100%;
+}
+.product-panel {
+  background-color: red;
+  border-radius: 10px;
+  width: auto;
+  height: 300px;
+  padding: auto;
+  align-content: center;
+}
+.product-panel img {
+  height: 75%;
+  width: auto;
+  color: black;
+  display: block;
+  margin: auto;
+  background-color: black;
+}
+.product-panel h2,
+h3 {
+  text-align: center;
+}
+.learn-more-button {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+}
+
+.wait-container {
+  width: 50%;
+  margin: auto;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wait-container h1,
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile-container {
+  width: 75%;
+  height: auto;
+  background-color: rgb(123, 190, 126);
+  display: flex;
+  margin: 40px auto 40px auto;
+  padding: 75px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.profile-container img {
+  height: 500px;
+  width: 350px;
+}
+.information-container {
+  margin: auto;
+  align-items: center;
+  width: 40%;
+  background-color: rgb(113, 168, 115);
+  padding: 10px;
+  border-radius: 10px;
+}
+.information-container h1,
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
