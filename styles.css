@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat.woff') format('woff');
+  src: url('../fonts/montserrat.woff2') format('woff2');
+  src: url('../fonts/montserrat.ttf') format('truetype');
+}
 * {
   margin: 0;
   font-family: montserrat;
@@ -104,8 +110,9 @@ h2 {
   justify-content: space-between;
 }
 .profile-container img {
-  height: 500px;
-  width: 350px;
+  height: 40%;
+  width: 40%;
+  margin: auto;
 }
 .information-container {
   margin: auto;
